@@ -1,6 +1,6 @@
 {
   "name": "react-native-listener-provider",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "An alternative to react-native-event-listener",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -27,14 +27,25 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
     "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "bootstrap": "yarn"
   },
   "keywords": [
+    "react",
     "react-native",
-    "ios",
-    "android"
+    "event listeners",
+    "provider",
+    "listener",
+    "listeners",
+    "events"
+  ],
+  "tags": [
+    "react",
+    "react-native",
+    "event listeners",
+    "provider",
+    "listener",
+    "listeners",
+    "events"
   ],
   "repository": "https://github.com/Cookzz/react-native-listener-provider",
   "author": "Cookzz (https://github.com/Cookzz)",
