@@ -5,7 +5,7 @@ import {
   TouchableOpacity,
   TouchableOpacityProps
 } from 'react-native'
-import { useListenerProvider } from '../provider/Provider'
+import { useListenerProvider } from '../ListenerProvider'
 
 interface TouchableOpacityListenerProps extends TouchableOpacityProps {
   name?: string;
