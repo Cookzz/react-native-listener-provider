@@ -95,7 +95,7 @@ const ExamplePage = (props) => {
 
 ```js
 //import and wrap at top level component
-import ListenerProvider from 'react-native-listener-provider'
+import { ListenerProvider } from 'react-native-listener-provider'
 
 //import hook and custom component
 import { useListenerProvider, TouchableOpacityListener } from 'react-native-listener-provider'

@@ -1,5 +1,9 @@
-import ListenerProvider from "./ListenerProvider";
+import ListenerProvider, { useListenerProvider } from "./ListenerProvider";
 import TouchableOpacityListener from "./components/TouchableOpacity";
 
-export default ListenerProvider;
-export { TouchableOpacityListener }
+export {
+  ListenerProvider,
+  TouchableOpacityListener,
+
+  useListenerProvider
+}
